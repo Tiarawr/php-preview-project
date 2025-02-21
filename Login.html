@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://localhost/papaw/login.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="http://localhost/papaw/assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Login_files/remixicon.css">
+
+    <link rel="stylesheet" href="./Login_files/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <!-- Halaman Login -->
+    <div class="login_container">
+        <!-- Tombol Back -->
+        <a href="http://localhost/papaw/index.php" class="back-button">
+            <i class="ri-arrow-left-circle-fill"></i>Back
+        </a>
+        <div class="wrapper">
+            <h1>Login</h1>
+            <form method="POST" action="http://localhost/papaw/login.php">
+                <div class="input-group">
+                    <label for="username-input">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                            <path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Z"></path>
+                        </svg>
+                    </label>
+                    <input required="" type="text" name="username" id="username-input" placeholder="Username">
+                </div>
+                <div class="input-group">
+                    <label for="password-input">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="http://www.w3.org/2000/svg" width="24px" fill="#e8eaed">
+                            <path d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm240-200q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z"></path>
+                        </svg>
+                    </label>
+                    <input required="" type="password" name="password" id="password-input" placeholder="Password">
+                    <span class="password-toggle" id="toggle-password">
+                        <i class="ri-eye-line" id="eye-icon"></i>
+                    </span>
+                </div>
+                <button type="submit">Login</button>
+
+                            </form>
+            <p>Belum punya akun? <a href="http://localhost/papaw/register.php">Daftar</a></p>
+        </div>
+        <!-- Gambar -->
+        <div class="image">
+            <img src="./Login_files/cats.jpg" alt="image">
+        </div>
+    </div>
+
+    <!-- Password Visible -->
+    <script src="./Login_files/password.js.download"></script>
+
+
+</body></html>
